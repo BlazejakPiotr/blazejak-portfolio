@@ -10,7 +10,8 @@
     "prepare": "husky",
     "format": "prettier --check './src/**/*.{js,jsx,ts,tsx,css}'",
     "format:fix": "prettier --write './src/**/*.{js,jsx,ts,tsx,css}'",
-    "lint:fix": "eslint --fix './src/**/*.{js,jsx,ts,tsx}'"
+    "lint:fix": "eslint --fix './src/**/*.{js,jsx,ts,tsx}'",
+    "lint:staged": "lint-staged -c lint-staged.config.msj -p false"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
