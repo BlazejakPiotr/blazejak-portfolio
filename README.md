@@ -1,1 +1,0 @@
-# blazejak-portfolio
